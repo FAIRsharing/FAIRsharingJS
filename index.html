@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angularSeedApp">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>FAIRSharing</title>
+
+    <link rel="shortcut icon" href="" type="">
+    <link rel="icon" href="" type="">
+
+    <link rel="stylesheet" href="lib/unused/darkly.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="lib/angular-material.min.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/Chart.min.js"></script>
+
+    <script type="text/javascript" src="lib/angular.js"></script>
+    <script type="text/javascript" src="lib/angular-route.min.js"></script>
+    <script type="text/javascript" src="lib/angular-aria.min.js"></script>
+    <script type="text/javascript" src="lib/angular-animate.min.js"></script>
+    <script type="text/javascript" src="lib/angular-messages.min.js"></script>
+    <script type="text/javascript" src="lib/angular-material.js"></script>
+    <script type="text/javascript" src="lib/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="lib/angular-chart.min.js"></script>
+
+    <script type="text/javascript" src="scripts/controllers/configCtrl.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+
+<body ng-controller="configCtrl as main">
+
+    <div class="">
+        <!-- NAV BAR TOP -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-transparent bg-gray fixed-top">
+            <img class="siteLogo" src="static/img/FAIRsharing_logo.svg">
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarColor01"
+                    aria-controls="navbarColor01"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0" ng-submit="">
+                    <input class="form-control mr-sm-2"
+                           type="text"
+                           placeholder="Search">
+                </form>
+                <div class="menus">
+                    <button type="button" class="btn btn-info"> Standards </button>
+                    <button type="button" class="btn btn-info"> Databases </button>
+                    <button type="button" class="btn btn-info"> Policies </button>
+                    <button type="button" class="btn btn-info"> Collections </button>
+
+                    <button type="button" class="btn btn-secondary"> Add/Claim content </button>
+
+                    <button type="button" class="btn btn-primary"> Stats </button>
+                    <button type="button" class="btn btn-primary"> Log in / Register </button>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="container-fluid" style="margin-top: 80px;">
+            <div class="row">
+                <div class="col-12">
+                    <!-- MAIN -->
+                    <div ng-view></div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="partners">
+            <div class="container-fluid">
+                <div class="row"> <h5>Our Community of 75 Journals, Funders, and Databases Includes</h5> </div>
+                <div class="row"> <img src="static/img/partners.png"> </div>
+                <div class="row" style="text-align: center;"> <button class="btn btn-info"> View all</button> </div>
+            </div>
+        </nav>
+
+        <nav class="summary">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3">
+                        <img class="siteLogo" src="static/img/FAIRsharing_logo_sm.svg">
+                        <br>
+                        <div class="input">
+                            <input type="text" placeholder="Search all of FAIRsharing">
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <h5> Developed By</h5>
+                        <ul>
+                            <li><a href="">The FAIRsharing Team</a></li>
+                            <li><a href="">Oxford e-Research Center</a></li>
+                            <li><a href="">University of Oxford</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-3">
+                        <h5> Contact Us</h5>
+                        <ul>
+                            <li><a href=""><i class="fas fa-envelope" style="margin-right:5px"></i> Email us for all enquiries</a></li>
+                            <li><a href=""><i class="fab fa-facebook" style="margin-right:7px"></i> Facebook</a></li>
+                            <li><a href=""><i class="fab fa-twitter" style="margin-right:5px"></i> Twitter</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-3">
+                        <h5> About FAIRsharing</h5>
+                        <ul>
+                            <li><a href="">Take a Tour</a></li>
+                            <li><a href="">Community</a></li>
+                            <li><a href="">Stakeholders</a></li>
+                            <li><a href="">Timeline</a></li>
+                            <li><a href="">API and data licence </a></li>
+                            <li><a href="">How to cite us</a></li>
+                            <li><a href="">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row" style="text-align: center;">
+                    <div class="additional-information" align="center">
+
+                    © FAIRsharing 2009-Present | Licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/" alt="View License" target="_blank">Creative Commons
+                    by
+                    Share Alike 4.0 International</a> |
+                    Designed by <a href="" target="_blank">Batista Dominique</a>
+                    <br>
+                    <a href="/licence"><img src="https://fairsharing.org/static/img/home/FAIRsharingCC-BY-SA.png"></a>
+
+                    <br>Last updated: 2019-04-18 16:06
+
+
+
+                </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="navbar footer">
+            <img src="static/img/elixir-60px.png" style="margin-top:3px;display: inline-block;">
+            <div class="collapse navbar-collapse show" style="margin-top:3px;display: inline-block;">
+                FAIRsharing is part of the ELIXIR infrastructure. <br>
+                <a href=""> Learn more...</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

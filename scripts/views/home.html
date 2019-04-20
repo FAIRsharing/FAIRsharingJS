@@ -1,0 +1,258 @@
+<div class="mainContainer homePage">
+    <h1>
+        {{title}}
+    </h1>
+    <h2 ng-bind-html="description"> </h2>
+    <h3 class="description"> {{sub_description}}</h3>
+
+
+    <div class="carousel container-fluid">
+        <div class="row">
+
+            <div class="col-2 d-none d-sm-block"></div>
+
+            <div class="col-2 carouselMenu carouselMenuLeft">
+                <div class="carouselMenuItem">Researchers</div>
+                <div class="carouselMenuItem selected">Developers & Curators</div>
+                <div class="carouselMenuItem">Journal Publishers</div>
+            </div>
+
+
+            <div class="col-4 carouselContent container-fluid">
+                <div class="row">
+                    <div class="col-6"><img class="carouselItemImg" src="static/img/carousel/developer.svg"></div>
+                    <div class="col-6">
+                        <h4>Developers & curators of resources</h4>
+                        <p> Make your standard, database or repository discoverable, increasing exposure and credit outside your immediate community and promoting adoption...</p>
+                        <button class="btn btn-info" type="button">Read more</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-2 carouselMenu carouselMenuRight">
+                <div class="carouselMenuItem">Librarians & Trainers </div>
+                <div class="carouselMenuItem">Societies & Alliances </div>
+                <div class="carouselMenuItem">Funders</div>
+            </div>
+
+            <div class="col-2 d-none d-sm-block"></div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid homeContent">
+
+        <div class="row miniMenu">
+            <div class="col-2 miniMenuItem">
+                <div class="miniMenuItemLogo">
+                    <i class="fas fa-thumbs-up"></i>
+                </div>
+                <div class="miniMenuItemLabel">
+                    Recommendations
+                    <p>Standards and/or databases recommended by journal or funder data policies. </p>
+                    <button class="btn btn-success" type="button">Find</button>
+                </div>
+            </div>
+            <div class="col-2 miniMenuItem">
+                <div class="miniMenuItemLogo">
+                    <i class="fas fa-paste"></i>
+                </div>
+                <div class="miniMenuItemLabel">
+                    Collections
+                    <p>Standards and/or databases grouped by domain, species or organization. </p>
+                    <button class="btn btn-success" type="button">Discover</button>
+                </div>
+            </div>
+            <div class="col-2 miniMenuItem">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="miniMenuItemLabel">
+                    Educational
+                    <p>About standards, their use in databases and policies, and how we can help you. </p>
+                    <button class="btn btn-success" type="button">Learn</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row homeContentMain">
+
+            <div class="col-6">
+
+                <div class="container homeItem homeElements">
+                    <div class="row">
+                        <div class="col-4 homeElement">
+                            <div class="homeElementImg">
+                                <img src="static/img/standards.svg">
+                            </div>
+                            <h6>1296 Standards</h6>
+
+                            <div class="table">
+                                <table class="table table-hover">
+                                <tbody>
+                                <tr class="table-primary table-custom">
+                                    <th scope="row">Terminology Artifact</th>
+                                    <td class="value">728</td>
+                                </tr>
+                                <tr class="table-primary table-custom">
+                                    <th scope="row">Model/Format</th>
+                                    <td class="value">384</td>
+                                </tr>
+                                <tr class="table-primary table-custom">
+                                    <th scope="row">Reporting Guideline</th>
+                                    <td class="value">159</td>
+                                </tr>
+                                <tr class="table-primary table-custom">
+                                    <th scope="row">Identifier Schema</th>
+                                    <td class="value">11</td>
+                                </tr>
+                                <tr class="table-primary table-custom">
+                                    <th scope="row">Metrics</th>
+                                    <td class="value">14</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            </div>
+
+                            <button type="button" class="btn btn-info">View all</button>
+
+                        </div>
+                        <div class="col-4 homeElement">
+                            <div class="homeElementImg">
+                                <img src="static/img/home-db.svg">
+                            </div>
+                            <h6>1222 Databases</h6>
+                            <div class="table">
+                                <table class="table table-hover">
+                                    <tbody>
+                                    <tr class="table-primary table-custom">
+                                        <th scope="row">Natural Sciences</th>
+                                        <td class="value">1132</td>
+                                    </tr>
+                                    <tr class="table-primary table-custom">
+                                        <th scope="row">Engineering Science</th>
+                                        <td class="value">98</td>
+                                    </tr>
+                                    <tr class="table-primary table-custom">
+                                        <th scope="row">Humanities</th>
+                                        <td class="value">31</td>
+                                    </tr>
+                                    <tr class="table-primary table-custom">
+                                        <th scope="row">Social Sciences</th>
+                                        <td class="value">28</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button type="button" class="btn btn-info">View all</button>
+                        </div>
+
+                        <div class="col-4 homeElement">
+                            <div class="homeElementImg">
+                                <img src="static/img/home-policies.svg">
+                            </div>
+                            <h6>118 Policies</h6>
+                            <div class="table">
+                                <table class="table table-hover">
+                                    <tbody>
+                                    <tr class="table-primary table-custom">
+                                        <th scope="row">Funder</th>
+                                        <td class="value">23</td>
+                                    </tr>
+                                    <tr class="table-primary table-custom">
+                                        <th scope="row">Journal</th>
+                                        <td class="value">82</td>
+                                    </tr>
+                                    <tr class="table-primary table-custom">
+                                        <th scope="row">Society</th>
+                                        <td class="value">9</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button type="button" class="btn btn-info">View all</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-6">
+                <div class="homeItem">
+
+                    <h3> A powerful search engine</h3>
+                    <div class="container searchContainer">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <form class="form-inline my-2 my-lg-0" ng-submit="">
+                                    <input class="form-control mr-sm-2 inputText"
+                                           type="text"
+                                           placeholder="Search all of FAIRsharing">
+                                    <button type="submit" class="btn btn-lg btn-info submit">Search
+                                    </button>
+
+                                    <div class="container checkboxSearch">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <label>
+                                                    <input type="checkbox" name="content" value="standard" class="checkbox" style="margin-right: 5px;" checked="">
+                                                    <span>Standards</span>
+                                                </label>
+                                            </div>
+                                            <div class="col-3">
+                                                <label>
+                                                    <input type="checkbox" name="content" value="biodbcore" class="checkbox" style="margin-right: 5px;" checked="">
+                                                    <span>Databases</span>
+                                                </label>
+                                            </div>
+                                            <div class="col-3">
+                                                <label>
+                                                    <input type="checkbox" name="content" value="policy" class="checkbox" checked="">
+                                                    <span>Policies</span>
+                                                </label>
+                                            </div>
+                                            <div class="col-3">
+                                                <label>
+                                                    <input type="checkbox" name="content" value="collection" class="checkbox" style="margin-right: 5px;" checked="">
+                                                    <span>Collections/Recommendations</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        <hr>
+
+                        <div class="row">
+
+                            <div class="col-6 advancedSearch">
+
+                                <h5> Advanced Search</h5>
+                                <div class="searchIcon">
+                                    <img class="lens" src="static/img/lens.svg">
+                                </div>
+                                <div>Fine grained control over your search.</div>
+
+                            </div>
+
+                            <div class="col-6 searchWizard">
+                                <h5> Search Wizard</h5>
+                                <div class="searchIcon">
+                                    <img class="lens" src="static/img/askFAIR.svg">
+                                </div>
+                                <div>Let us guide you to your results.</div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

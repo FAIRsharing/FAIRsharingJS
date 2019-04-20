@@ -1,0 +1,377 @@
+/* ************************************ */
+/* GENERAL */
+/* ************************************ */
+button, input{
+    border-radius: 0 !important;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    margin-top: 5px;
+}
+
+h3.description{
+    font-style:italic;
+}
+
+h4{
+    color: #27aae1;
+    font-size: 1.3em;
+}
+
+h6{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/* ************************************ */
+/* NAVBAR */
+/* ************************************ */
+nav.navbar{
+    padding:0 20px;
+}
+
+nav button{
+    margin-left:5px;
+}
+
+nav img{
+    margin-top: -9px;
+}
+
+
+
+/* ************************************ */
+/* MAIN CONTAINER */
+/* ************************************ */
+.mainContainer{
+    padding:10px;
+}
+
+
+/* ************************************ */
+/* HOME PAGE */
+/* ************************************ */
+
+.homePage .carousel {
+    margin-top: 40px;
+}
+
+.homePage .carouselMenuItem{
+    border-top: 4px #ECF0F1 solid;
+    border-bottom: 4px #ECF0F1 solid;
+    padding: 1em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.homePage .carouselMenuItem:hover{
+    background-color: #ECF0F1;
+}
+
+.homePage .carouselMenuItem.selected{
+    border-top: 4px #27aae1 solid;
+    border-bottom: 4px #27aae1 solid;
+    color: #27aae1;
+    font-weight: bold;
+}
+
+.homePage .carouselItemImg{
+    width:350px;
+    height:auto;
+}
+
+.homePage .homeContent{
+    margin-top: 60px;
+    border-top: 10px double #27aae1;
+    position: relative;
+    top:100px;
+}
+
+.homePage .miniMenu,
+.searchContainer form,
+.homePage .homeElementImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage .miniMenuItem{
+    position: relative;
+    top: -130px;
+    background-color: #3498DB;
+    border: 1px solid white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.homePage .miniMenuItem i{
+    font-size: 3rem;
+    color:white;
+}
+
+.homePage .miniMenuItemLabel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+    font-size: 1.4rem;
+}
+
+.homePage .miniMenuItemLabel p{
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.homePage .homeItem {
+    padding: 30px 20px;
+    box-shadow: 4px 4px 3px #D6D6D6;
+    background-color: #253442;
+    color:white;
+}
+
+.homePage .homeItem h3{
+    margin-bottom: 15px;
+}
+
+.homePage .homeContentMain{
+    position: relative;
+    top:-80px;
+    margin-bottom: 80px;
+}
+
+.homePage .searchContainer hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    margin-bottom: 25px;
+    margin-top:20px;
+}
+
+.homePage .searchContainer{
+    margin-top:20px;
+}
+
+.homePage .searchContainer input.inputText{
+    margin-right:0 !important;
+    height:46px;
+    width: 740px;
+}
+
+.homePage .searchContainer img {
+    max-width: 360px;
+}
+
+.homePage .searchContainer span{
+    margin-left:5px;
+}
+
+.homePage .searchContainer .checkboxSearch {
+    margin-top:20px;
+}
+
+.homePage .fa-search{
+    color: #26A9E0;
+    z-index: 10;
+    font-size: 5rem;
+}
+
+.homePage .advancedSearch, .homePage .searchWizard{
+    text-align: center;
+}
+
+.homePage .searchWizard img{
+    width:280px;
+    height:auto;
+}
+
+.homePage .homeElements{
+    padding:0;
+}
+
+.homePage .homeElements img{
+    width:170px;
+    height:auto;
+}
+
+.homePage .homeElements .row {
+    margin:0;
+}
+
+.homePage .homeElement{
+    border:1px solid #ccc;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.homePage .homeElement .table {
+    padding:0 30px;
+    min-height:160px;
+}
+
+.homePage .homeElement button{
+    margin-bottom: 10px;
+}
+
+.homePage .homeElement .table th {
+    text-align: left;
+}
+
+.homePage .homeElement .table td.value{
+    text-align: right;
+}
+
+.homePage .homeElementImg, .homePage .homeElement h6 {
+    margin-bottom: 20px;
+}
+
+
+.partners {
+    border-top:2px solid #ECF0F1;
+    color:#7F8C8D;
+    padding: 15px 0 !important;
+}
+
+.partners h5
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.partners button, .summary .additional-information{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.summary {
+    background-color: #ECF0F1;
+    padding:30px 10px;
+}
+
+.summary img {
+    width:500px;
+    height:auto;
+}
+
+.summary .input {
+    padding: 0 31px;
+}
+
+.summary input {
+    width: 447px;
+    padding: 10px 10px 10px 60px;
+    border:0;
+    background:#cacaca url("static/img/lens_mini.svg") no-repeat 5px 50%; ;
+    caret-color: black;
+}
+
+.summary ul {
+    padding-left:0;
+}
+
+.summary ul li{
+    list-style: none
+}
+
+.summary .additional-information {
+    margin-top:-80px;
+}
+
+.summary .additional-information img {
+    width:100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #1c4257 !important;
+    min-height: 60px;
+    color:white;
+}
+
+.footer .navbar-collapse{
+    flex-basis: initial !important;
+    padding-left: 20px;
+}
+
+.footer.navbar{
+    padding:0 10px;
+}
+
+/* ************************************ */
+/* COLORS */
+/* ************************************ */
+
+html{
+    background-color: white !important;
+}
+
+.bg-gray {
+    background-color: #ECF0F1;
+}
+
+nav .navbar-toggler{
+    background-color: #2B4764;
+}
+
+nav .navbar-toggler:hover{
+    background-color: #3498DB;
+}
+
+nav span{
+    color: white;
+}
+
+body{
+    background-color: white !important;
+    color: #3B5169;
+}
+
+h3{
+    color: #27aae1;
+}
+
+.table-custom, .table-custom td, .table-custom th {
+    background-color: #253442;
+    border:0;
+    padding: 2px;
+}
+
+a, a:hover{
+    color:#27aae1;
+}
+
+
+/* ************************************ */
+/* RESPONSIVNESS */
+/* ************************************ */
+@media (max-width: 991px) {
+    nav button{
+        display: block !important;
+        margin-top: 5px;
+        font-size: 1.3rem !important;
+    }
+    nav .menus{
+        margin-bottom: 10px;
+    }
+    nav .menus button{
+        min-width: 300px;
+        margin-left:0;
+    }
+}
