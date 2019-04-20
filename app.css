@@ -1,6 +1,10 @@
 /* ************************************ */
 /* GENERAL */
 /* ************************************ */
+html {
+    font-size: 1.1rem;
+}
+
 button, input{
     border-radius: 0 !important;
 }
@@ -97,7 +101,7 @@ nav img{
 
 .homePage .homeContent{
     margin-top: 60px;
-    border-top: 10px double #27aae1;
+    border-top: 4px double #27aae1;
     position: relative;
     top:100px;
 }
@@ -137,7 +141,7 @@ nav img{
 }
 
 .homePage .homeItem {
-    padding: 30px 20px;
+    padding: 15px 20px;
     box-shadow: 4px 4px 3px #D6D6D6;
     background-color: #253442;
     color:white;
@@ -235,7 +239,7 @@ nav img{
 }
 
 .homePage .homeElementImg, .homePage .homeElement h6 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
