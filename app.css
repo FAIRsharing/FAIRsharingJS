@@ -75,6 +75,10 @@ nav img{
     margin-top: 40px;
 }
 
+.homePage.mainContainer {
+    padding: 10px 0 20px 0;
+}
+
 .homePage .carouselMenuItem{
     border-top: 4px #ECF0F1 solid;
     border-bottom: 4px #ECF0F1 solid;
